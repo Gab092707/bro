@@ -35,5 +35,5 @@ for i=1, 1000 do
    print('withdrawed 1 gem')
    Bank(bankid):deposit({}, 1)
    print('deposited 1 gem')
-   task.wait(5)
+   task.wait(2)
 end
